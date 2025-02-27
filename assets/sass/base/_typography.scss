@@ -22,12 +22,9 @@
 			font-size: 14pt;
 		}
 
-		@include breakpoint('<=small') {
-			font-size: 14pt;
-		}
 
 		@include breakpoint('<=xxsmall') {
-			font-size: 14pt;
+			font-size: 12pt;
 		}
 	}
 
