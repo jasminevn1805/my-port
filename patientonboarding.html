@@ -57,13 +57,12 @@
 									<blockquote>In this case study, I designed a patient onboarding flow for an asynchronous dermatology application to boost user engagement. The onboarding process allows patients to select consultation types (for themselves, their child, or someone in their care) and provides personalized treatment plans through a preference questionnaire. I addressed challenges such as allowing users to explore the app without sign-in interruptions and simplifying follow-up consultations by preloading prior medical data. Additionally, I implemented an educational walkthrough to guide users through the app's key features. These improvements enhanced user satisfaction, increased engagement, and streamlined the consultation process.</blockquote>
 
 									<!-- About the App -->
-									<h3>About the App</h3>
-									<p>Dermago is an asynchronous dermatology application that allows patients to consult with dermatologists by submitting images and descriptions of their skin conditions for review. The platform is designed to make dermatological care more accessible and flexible, as users do not need to schedule live appointments.</p>
+									<h3>Context</h3>
+									<p>Dermago is an asynchronous dermatology application that allows patients to consult with dermatologists by submitting images and descriptions of their skin conditions for review. Onboarding is the first point of interaction between users and the app. Introducing core features, driving user activation, and maximizing retention rates after the user onboarding experience will all impact the user journey moving forward.</p>
 
 									<!-- Why Onboarding Matters -->
-									<h3>Why Onboarding Matters</h3>
-									<p>Onboarding is the first point of interaction between users and the app. It not only sets the tone but also determines how likely users are to engage with core features such as submitting a case for booking a consultation, and exploring treatment options. For an application in healthcare, onboarding needs to provide clarity, instill trust, and lead patients seamlessly into their care journey.</p>
-									<p>The challenge was to design an onboarding experience that not only welcomed users but also:</p>
+									<h3>Phase 0: Discovery project</h3>
+									<p>At first, I drove the initial UX research, including competitive analysis, and analysis of the target audience's needs and pains. Insight from this research became a backbone for all future improvements.</p>
 									<ul>
 										<li><b>Engage new users</b> and guide them seamlessly through the decision-making process of submitting a consultation case.</li>
 										<li><b>Educate patients</b> on how to use the app’s unique asynchronous consultation model.</li>
@@ -82,61 +81,106 @@
 
 
 									<!-- Research -->
-									<h3>Research</h3>
+									<h1>Phase 0: Discovery project</h1>
+									<p>First, I looked up some insight about potential user behaviors and expectations on telehealth platform which led to some assumptions. Next, to verify it, I carried out the concept user research using user survey, then confident to build the user personas for the product.</p>
 									<dl>
-										<dt>Assumption</dt>
+										<dt>Industry research</dt>
 										<dd>
-											<p>Before diving into the design, I looked up some insight about potential user behaviors and expectations on telehealth platform on some aspects:</p>
 											<ul>
-												<li><b>User Behavior in Digital Healthcare</b><br> Patients often prefer minimal interaction in health app, especially during the initial stages. They want fast access to healthcare without being overwhelmed with lengthy forms or unfamiliar workflows.</li><br>
-												<li><b>Complexity of Dermatological Care</b><br> Dermatology assessments require high-quality images and detailed information about symptoms. However, asking for too much information upfront can frustrate users who might not yet understand why it is necessary.</li><br>
-												<li><b>Engagement Patterns</b><br> Users in healthcare apps often abandon the flow when faced with complex procedures. If onboarding is not designed to be quick and relevant, users are less likely to engage with the app’s core functions, such as submitting their first consultation request.</li><br>
-												<li><b>Personalization Trends</b><br> Personalization has proven to be a key factor in increasing user satisfaction and engagement, especially in healthcare. Allowing users to specify their preferences early on leads to better outcomes and more relevant treatment plans. </li><br>
-												<li><b>Asynchronous Care Research</b><br> I reviewed literature and case studies about synchronous healthcare models, learning that clear communication and patient education during onboarding were critical to success.</li><br>
+												<li><b>User Behavior in Digital Healthcare</b><br> Patients often prefer minimal interaction in health app, especially during the initial stages.</li>
+												<li><b>Complexity of Dermatological Care</b><br> Asking for too much information upfront can frustrate users who might not yet understand why it is necessary.</li>
+												<li><b>Engagement Patterns</b><br> If onboarding is not designed to be quick and relevant, users are less likely to engage with the app’s core functions, such as submitting their first consultation request.</li>
+												<li><b>Personalization Trends</b><br> Personalization has proven to be a key factor in increasing user satisfaction and engagement, especially in healthcare.</li>
+												<li><b>Asynchronous Care Research</b><br> Learning that clear communication and patient education during onboarding were critical to success.</li>
 											</ul>
 										</dd>
+
 										<dt>User research</dt>
 										<dd>
-											<p>To verify my assumption, I carried out comprehensive research using various methods:</p>
-											<ul>
-												<li><b>Competitive Analysis</b><br> I examined other healthcare and dermatology apps to identify best practices and gaps in onboarding flows. Many apps overwhelmed users by asking for too much information upfront, leading drop-offs. Others failed to explain their unique features clearly.</li><br>
-												<span class="image fit"><img src="images/pic11.jpg" alt="" />
-													<figcaption>Fig.1 - Image 11</figcaption>
-												</span>
-												<li><b>User interviews</b><br> I interviewed 10 potential users to understand their pain points when accessing digital healthcare or dermatology services and their expectations from a healthcare app. The key findings were:
-													<ul>
-														<li>Users valued ease of use and wanted a clear understanding of the steps required for dermatological consultation</li>
-														<li>Privacy and data security were major concerns.</li>
-													</ul>
-												</li>
-												<span class="image fit"><img src="images/pic11.jpg" alt="" />
-													<figcaption>Fig.1 - Image 11</figcaption>
-												</span>
-											</ul>
+											<span class="image fit"><img src="images/onboarding-usersurvey.png" alt="" />
+												<figcaption>Fig.1 - Image 11</figcaption></span>
 										</dd>
-									</dl>
+										
+										<dt>Stakeholder interviews</dt>
+										<p>Conducting interviews sessions with Doctors, PM, Product team provided me with data and insights from the business's point of view. The session helped me uncover and organize the context, identify the business goals.</p>
+										<dd>
+											<span class="image fit"><img src="images/onboarding-stakeholder-interview.png" alt="" />
+												<figcaption>Fig.1 - Image 11</figcaption></span>
+										</dd>
 
-									<!-- Personas -->
-									<h3>User Personas</h3>
-									<p>I developed three primary personas:</p>
-									<ol>
-										<li><b>Anna</b> - A 34-year-old mother booking consultation for her child.</li>
-										<li><b>David</b> - A 28-year-old tech professional who values quick, efficient dermatological care for himself.</li>
-										<li><b>Sarah</b> - A 42-year-old caregiver seeking consultation for her elderly mother.</li>
-									</ol>
+										<dt>Key takeaways</dt>
+										<dd>
+											<p>Research confirms that patients prefer a streamlined onboarding experience with minimal friction. Balancing dermatological assessment complexity with usability is key to preventing frustration. Personalization improves engagement, while clear communication and education build trust. A well-structured onboarding flow is essential for better user adoption and satisfaction.</p>
+										</dd>
+										
+										<dt>User personas</dt>
+										<dd>
+											<span class="image fit"><img src="images/onboarding-userpersonas.png" alt="" />
+												<figcaption>Fig.1 - Image 11</figcaption></span>
+										</dd>
+
+										<h3>Problem statement</h3>
+										<blockquote>Patients using digital healthcare apps need a way to quickly access care with minimal friction because lengthy forms and complex workflows can lead to frustration and drop-offs, reducing engagement with essential features like submitting a consultation request.</blockquote>
+										
+									</dl>
 									<hr />
 
 									<!-- Challenges and Solutions -->
-									<h3>Design Challenges and Solutions</h3>
+									<h1>Phase 1: Ideation</h1>
+									
 									<dl>
-										<dt>Challenge 1: Multiple Consultation Types</dt>
+										<h3>How Might We</h3>
+										<blockquote>How might we make the onboarding process seamless and intuitive to reduce friction for first-time users so they will engage with the app deeper and longer?</blockquote>
+										
+
+										<dt>Brainstorm using card sorting</dt>
 										<dd>
-											<h5>Problem</h5>
-											<p>Users needed to choose whether the consultation was for themselves, their child, or someone in their care. The app had to handle these different scenarios smoothly without confusing users.</p>
-											<h5>Solution</h5>
+											<p>To ensure an intuitive and engaging onboarding experience, I began by mapping out the user journey through a user story and user flow diagram. This approach helped translate insights into actionable solutions and provided a clear, understandable document for discussion with stakeholders.</p>
+											<span class="image fit"><img src="images/onboarding-brainstorming.png" alt="" />
+												<figcaption>Fig.1 - User onboarding flow</figcaption></span>
+										</dd>
+										<dt>Define user onboarding flow</dt>
+										<dd>
+											<span class="image fit"><img src="images/onboarding-userjourneymap.png" alt="" />
+												<figcaption>Fig.1 - User onboarding flow</figcaption></span>
+										</dd>
+										<dt>Validate design concept </dt>
+										<dd>
+											<span class="image fit"><img src="images/onboarding-validatedesignconcept.png" alt="" />
+												<figcaption>Fig.1 - User onboarding flow</figcaption></span>
+										</dd>
+
+										<p>Based on the instructive opinion from the ideation session with the team, I defined a roadmap of UX improvements including:</p>
+										<ul>
+											<li>New walthrough screens</li>
+											<li>Make the consultation types more standout</li>
+											<li>Move sign-up step toward the end of the process</li>
+											<li>Keep design flexible for feature added later on: Follow-up Consultation</li>
+										</ul>
+										
+									</dl>
+									<hr/>
+
+
+									<h1>Phase 2: Design, Test, and Iteration</h1>
+									<dl>
+										<dt>Design challenge 1 - Educate users about what's the app offers to reduce cognitive load</dt>
+										
+										<dd>
+											<blockquote>Users who are unfamiliar with asynchronous heal care apps often feel uncertain about the app’s full capabilities. Without proper guidance or an introduction to key features, user may feel overwhelmed or miss out on valuable services, leading to lower engagement and even abandonment.</blockquote>
+											
+											<p>To address this, I designed a <b>guided walkthrough</b> that introduces new users to the app’s core features during the onboarding process. This walkthrough aimed to <b>educate users upfront</b> about what the app offers before they began exploring it independently. The walkthrough included a <b>brief, straight toward overview</b> of the app’s main services, such as how to submit skin consultation, receive expert advice, and manage follow-up consultations. By simplifying the explanation with visual and description, I reduced confusion and built confidence in the process.</p>
+											<span class="image fit"><img src="images/onboading-walkthrough.png" alt="" />
+												<figcaption>Fig.1 - Breaking the onboarding into manageable steps, users feel less overwhelmed and are more likely to complete the process.</figcaption>
+											</span>
+										</dd>
+
+										<dt>Design challenge 2 - Allow user select the appropriate Consultation Type</dt>
+										<dd>
+											<blockquote>Users needed to choose whether the consultation was for themselves, their child, or someone in their care. The app had to handle these different scenarios smoothly without confusing users.</blockquote>
 											<p>I designed a <b>decision-making interface</b> early in the onboarding process where users could easily select the type of consultation they needed. Each option was accompanied by clear, concise descriptions and visual cues (icons and short text) to ensure that users could make an informed choice.</p>
 											<p>The onboarding flow dynamically adjusted based on the user’s choice, offering tailored questions and information for each case.</p>
-											<span class="image fit"><img src="images/pic11.jpg" alt="" />
+											<span class="image fit"><img src="images/onboading-step1and2.png" alt="" />
 												<figcaption>Fig.1 - The onboarding flow dynamically adjusted based on the user’s choice, offering tailored questions and information for each case.</figcaption>
 											</span>
 										</dd>
@@ -162,16 +206,7 @@
 											</span>
 											<p>The preloaded data feature not only streamlined the follow-up process but also contributed to an overall sense of continuity in care, allowing patients to feel that their medical journey was being manage seamlessly and with minimal effort on their part.</p>
 										</dd>
-										<dt>Challenge 4: Educate users about what's the app offers and reduce cognitive load</dt>
-										<dd>
-											<h5>Problem</h5>
-											<p>Users who are unfamiliar with asynchronous heal care apps often feel uncertain about the app’s full capabilities. Without proper guidance or an introduction to key features, user may feel overwhelmed or miss out on valuable services, leading to lower engagement and even abandonment.</p>
-											<h5>Solution</h5>
-											<p>To address this, I designed a <b>guided walkthrough</b> that introduces new users to the app’s core features during the onboarding process. This walkthrough aimed to <b>educate users upfront</b> about what the app offers before they began exploring it independently. The walkthrough included a <b>brief, straight toward overview</b> of the app’s main services, such as how to submit skin consultation, receive expert advice, and manage follow-up consultations. By simplifying the explanation with visual and description, I reduced confusion and built confidence in the process.</p>
-											<span class="image fit"><img src="images/pic11.jpg" alt="" />
-												<figcaption>Fig.1 - Breaking the onboarding into manageable steps, users feel less overwhelmed and are more likely to complete the process.</figcaption>
-											</span>
-										</dd>
+										
 										<dt>Challenge 5: Making the process user friendly</dt>
 										<dd>
 											<h5>Problem</h5>
