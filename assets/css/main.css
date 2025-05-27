@@ -124,7 +124,7 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #ffffff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 17pt;
+		font-size: 14pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
 		line-height: 1.65;
@@ -2536,7 +2536,7 @@ input, select, textarea {
 		font-size: 0.8em;
 		font-weight: 600;
 		height: 3.5em;
-		letter-spacing: 0.25em;
+		letter-spacing: 0.2em;
 		line-height: 3.5em;
 		padding: 0 1.75em;
 		text-align: center;
@@ -2775,6 +2775,7 @@ input, select, textarea {
 			.tiles article header {
 				position: relative;
 				z-index: 3;
+				/*width: 100%;*/
 			}
 
 			.tiles article h3 {
@@ -3276,7 +3277,7 @@ input, select, textarea {
 			}
 
 			#header.alt.style2 .logo strong {
-				color: #8d82c4;
+				color: #555d50;
 			}
 
 			#header.alt.style3 .logo strong {
@@ -3508,7 +3509,7 @@ input, select, textarea {
 		}
 
 		#banner.style2:after {
-			background-color: #8d82c4;
+			background-color: #555d50;
 		}
 
 		#banner.style3:after {
@@ -3963,3 +3964,64 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+/* Infinity horizontal scrolling effect */
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+
+		.scroll-wrapper {
+			position: relative;
+			width: 100%;
+			overflow: hidden;
+		}
+
+		.scroll-container {
+			overflow-x: auto;
+			scroll-snap-type: x mandatory;
+			-webkit-overflow-scrolling: touch;
+		}
+
+		.scroll-container::-webkit-scrollbar {
+			display: none;
+		}
+
+		.scroll-content {
+			display: flex;
+			flex-wrap: nowrap;
+			min-width: fit-content;
+			animation: scroll-left 30s linear infinite;
+		}
+
+		.scroll-content:hover {
+			animation-play-state: paused; /* pause animation on hover/drag */
+		}
+
+		.scroll-content img {
+			/*width: clamp(360px, 100vw, 1440px);*/
+			width: auto;
+			height: auto;
+			max-width: 100%;
+			max-height: 100%;
+			margin-right: 80px;
+			border-radius: 10px;
+			/*object-fit: cover;*/
+			flex-shrink: 0;
+			scroll-snap-align: start;
+			display: block;
+		}
+
+		/* Infinity scrolling animation */
+		@keyframes scroll-left {
+			0% {
+				transform: translateX(0);
+			}
+			100% {
+				transform: translateX(-50%);
+			}
+		}
+
+
+	
