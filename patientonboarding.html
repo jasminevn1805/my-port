@@ -19,7 +19,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo"><strong>Jasmine Hoang</strong> </a>
+						<a href="index.html" class="logo"><strong>UXfolio</strong><span> by Jasmine</span></a>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -46,23 +46,26 @@
 						<section id="one">
 							<div class="inner">
 								<header class="major">
-									<h1>How I tackled and designed Patient Onboarding to boost engagement and minimize friction in Asynchronous Dermatology app</h1>
-									<p><b>Role:</b> UX Designer</p>
-									<p><b>Time:</b> 2022 / 2023</p>
+									<h1>How I Tackled and Designed UX Solutions for a Smarter, Faster Dermatology Consultation App</h1>
+									<!--<p><b>Role:</b> Product design . User research . User testing</p>
+									<p>Product team: 01 CTO . 01 Product Owner . 05 Back-ends . 01 Front-end . 01 Designer (me) <br>
+										Stakeholders: Nurses . Medical doctors . Product & Marketing . Clients <br>
+										Timeline - 2021 / 2022
+									</p>-->
 								</header>
-								<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
-								<blockquote>Onboarding serves as the first touchpoint between users and the app, shaping their initial experience. A well-designed onboarding process introduces core features, drives user activation, and maximizes retention. These elements play a crucial role in influencing the overall user journey and long-term engagement with the product.</blockquote>
-
-								<h4>Overview</h4>
-								<p>My approach to end-to-end design for the customer onboarding process of an asynchronous dermatology app focuses on addressing key UX challenges to enhance user engagement and streamline the consultation experience.</p>
+								<span class="image main"><img src="images/onboarding-cover-2D.png" alt="" /></span>
+								<!--<div style="height: 720px;">
+									<iframe src='https://my.spline.design/untitled-raHB0daSFLPFyPEayV19kEHa/' frameborder='0' width='100%' height='100%'></iframe>
+							</div>-->
+							<p>&nbsp;</p>
+								<blockquote>Efficiency in healthcare isn’t just about diagnoses or treatments—it’s about creating smooth, reassuring experiences between patients and doctors. Through structured research and design thinking, this case study demonstrates how I approached the problem and delivered UX solutions that reduce cognitive load and enable smarter, faster consultations for everyone involved.</blockquote>
 
 								<h4>Key outcomes</h4>
 								<ul>
-									<li>Improved design consistency and efficiency, reducing redandant components and streamlining UI updates</li>
-									<li>Accelerated design and development workflows, cutting production time and improving collaboration</li>
-									<li>Validated system adoption through team training and integration into multiple projects</li>
-									<li>Established a scalable, maintainable design system, ensuring long-term flexibility and growth</li>
-									<li>Created a living documentation framework, aligning design and development teams for future scalability</li>
+									<li>Boosted Clinical Efficiency: Streamlined asynchronous workflows reduced doctors’ time on repetitive diagnosis tasks.</li>
+									<li>Better Continuity of Care: Enhanced follow-up consultation features with skin progression visualization empowered doctors to make more informed decisions, improving treatment effectiveness.</li>
+									<li>Elevated Patient Experience: Simplified and faster patient interactions led to higher satisfaction and reduced drop-off rates in digital care journeys.</li>
+									<li>Scalable UX Framework: Designed a flexible system that supports both doctors and patients, laying groundwork for future feature expansion and adoption.</li>
 								</ul>
 
 								<ul class="actions">
@@ -75,65 +78,273 @@
 							<div class="inner">
 								<h1>Table Of Content</h1>
 								<dl>
-									<dt>Introduction</dt>
-									<dt>Process</dt>
-									<dd><a href="#discovery">Phase 0. Discovery project</a></dd>
-									<dd><a href="#ideate">Phase 1. Ideation</a></dd>
-									<dd><a href="#design">Phase 2. Design</a></dd>
-									<dd><a href="#test">Phase 3. Test, Iteration</a></dd><br>
-									<dt>Results</dt>
-									<dt>Key learnings</dt>
+									<dt><a href="#introduction">Introduction</a></dt>
+									<dt><a href="#process">Process</a></dt>
+										<dd><a href="#discovery">Phase 0. Discovery project</a></dd>
+										<dd><a href="#ideate">Phase 1. Ideation</a></dd>
+										<dd><a href="#design">Phase 2. Design</a></dd>
+										<dd><a href="#test">Phase 3. Test, Iteration</a></dd><br>
+									<dt><a href="#results">Results</a></dt>
+									<dt><a href="#learnings">Key learnings</a></dt>
 								</dl>
+								<p>&nbsp;</p>
 								<hr>
 
 								<!-- About the App -->
-								<h1>Introduction</h1>
-								<p>Dermago is an asynchronous dermatology app that enables patients to consult with dermatologists by submitting photos of their skin conditions, providing descriptions, and sending requests for review. To facilitate this process, patients must complete an onboarding flow that gathers essential information through a series of questions. If not designed thoughtfully, this step can lead to frustration and increased drop-off rates, impacting user engagement and overall experience.</p>
+								<section id="introduction">
+									<p>&nbsp;</p>
+									<h1>Introduction</h1>
+									<h4 id="content">Context</h4>
+									<div class="row">
+										<div class="col-6 col-12-small">
+											<p>In 2021, to address the challenges of in-person medical visits during the pandemic, two dermatologists from ORO Inc. developed an asynchronous telemedicine app.</p>
+											<p>This flexible, chat-based approach eliminated the need for real-time interaction, making it ideal for dermatology and aesthetic care.</p>
+											<p>Dermago, the first client, successfully adopted the app across four Canadian provinces to streamline remote consultations.</p>
+										</div>
+										<div class="col-6 col-12-small">
+											<span class="image fit"><img src="images/onboarding-concept.jpg" alt="asynchnonous-concept" /><figcaption>1 / 24 - Asynchronous consultation concept</figcaption></span>
+										</div>
+									</div>
+
+									<!--<h2 id="content">Concept</h2>
+									<p>The app allowed patients to <span style="font-size: 1.5em; font-weight: 200;">submit photos and medical info</span> at their convenience,<br> while doctors <span style="font-size: 1.5em; font-weight: 200;">reviewed cases and responded</span> with diagnoses and treatment plans later.</p>-->
+									
+									<h4 id="content">App's concept</h4>
+									<p>The app allowed patients to submit photos and medical info at their convenience, <br> while doctors reviewed cases and responded with diagnoses and treatment plans later.</p>
+
+									<h4 id="content">Highlighted Features in this case study</h4>
+									<p>
+										<ol>
+											<li>Patient Onboarding – A crucial step in the patient’s journey, ensuring a seamless and engaging start to their experience.</li>
+											<li>Doctor's Diagnosis and Treatment (DxTx) – Demonstrating how doctors manage consultation cases efficiently within the app.</li>
+										</ol>
+									</p>
+									
+									<h4 id="content">My responsibility</h4>
+									<p>
+										<ul>
+											<li>My role: Product design . User research . User testing</li>
+											<li>Product team: 1 CTO . 1 Product Owner . 5 Back-ends . 1 Front-end . 1 Designer (me)</li>
+											<li>Stakeholders: Nurses . Medical doctors . Product & Marketing . Clients</li>
+											<li>Timeline: 2021 / 2022</li>
+										</ul>
+
+									</p>
+								</section>
 								<hr>
 
 								<!-- Process -->
-								<h1>Process</h1>
+								<section id="process">
+									<p>&nbsp;</p>
+									<h1>Process</h1>
+								</section>
+
 								<section id="discovery">
 									<h1>Phase 0. Discovery project</h1>
-									<p>First, I looked up some insight about potential user behaviors and expectations on telehealth platform which led to some assumptions. Next, to verify it, I carried out the concept user research using user survey, then confident to build the user personas for the product.</p>
+									
 									<dl>
-										<dt>Industry research</dt>
+										<dt>Competitive analysis on digital healthcare</dt>
+										<p>Purpose: To identify industry trends, UX patterns, and product opportunities by analyzing leading telehealth platforms.<br>
+										Objective: This analysis aims to explore the user experience, feature set, and positioning of key telehealth apps to inform product direction, improve competitiveness, and uncover opportunities in patient-provider digital interactions.</p>
 										<dd>
-											<ul>
-												<li><b>User Behavior in Digital Healthcare</b><br> Patients often prefer minimal interaction in health app, especially during the initial stages.</li>
-												<li><b>Complexity of Dermatological Care</b><br> Asking for too much information upfront can frustrate users who might not yet understand why it is necessary.</li>
-												<li><b>Engagement Patterns</b><br> If onboarding is not designed to be quick and relevant, users are less likely to engage with the app’s core functions, such as submitting their first consultation request.</li>
-												<li><b>Personalization Trends</b><br> Personalization has proven to be a key factor in increasing user satisfaction and engagement, especially in healthcare.</li>
-												<li><b>Asynchronous Care Research</b><br> Learning that clear communication and patient education during onboarding were critical to success.</li>
-											</ul>
+											<div class="table-wrapper">
+												<table>
+													<thead>
+														<tr>
+															<th>Competitors Analyzed</th>
+														</tr>
+														<tr>
+															<th>App name</th>
+															<th>Type</th>
+															<th>Description</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td>GetMaple</td>
+															<td>Indirect Competitor</td>
+															<td>On-demand virtual care for Canadian users</td>
+														</tr>
+														<tr>
+															<td>Babylon Health</td>
+															<td>Indirect Competitor</td>
+															<td>AI-driven symptom checker + GP consultations</td>
+														</tr>
+														<tr>
+															<td>TiaHealth</td>
+															<td>Goverment App</td>
+															<td>Canadian Online Doctor Appointments</td>
+														</tr>
+														<tr>
+															<td>Teladoc Health</td>
+															<td>Aspirational</td>
+															<td>Multinational telemedicine and virtual healthcare</td>
+														</tr>
+													</tbody>
+												</table>
+												<table>
+													<thead>
+														<tr>
+															<td>&nbsp;</td>
+														</tr>
+														<tr>
+															<th>Feature Comparison</th>
+														</tr>
+														<tr>
+															<th>Feature</th>
+															<th>GetMaple</th>
+															<th>Babylon Health</th>
+															<th>TiaHealth</th>
+															<th>Teladoc Health</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td>On-demand visits</td>
+															<td><span class="icon solid fa-check"></span></td>
+															<td><span class="icon solid fa-check"></span></td>
+															<td><span class="icon solid fa-check"></span></td>
+															<td><span class="icon solid fa-check"></span></td>
+														</tr>
+														<tr>
+															<td>Appointment scheduling</td>
+															<td><span class="icon solid fa-check"></span></td>
+															<td><span class="icon solid fa-check"></span></td>
+															<td><span class="icon solid fa-check"></span></td>
+															<td><span class="icon solid fa-check"></span></td>
+														</tr>
+														<tr>
+															<td>AI symptom checker</td>
+															<td><span class="icon solid fa-xmark"></span></td>
+															<td><span class="icon solid fa-check"></span></td>
+															<td><span class="icon solid fa-xmark"></span></td>
+															<td><span class="icon solid fa-xmark"></span></td>
+														</tr>
+														<tr>
+															<td>Prescription delivery</td>
+															<td><span class="icon solid fa-check"></span></td>
+															<td><span class="icon solid fa-check"></span></td>
+															<td><span class="icon solid fa-check"></span></td>
+															<td><span class="icon solid fa-check"></span></td>
+														</tr>
+														<tr>
+															<td>Insurance integration</td>
+															<td><span class="icon solid fa-xmark"></span></td>
+															<td><span class="icon solid fa-xmark"></span></td>
+															<td><span class="icon solid fa-check"></span></td>
+															<td><span class="icon solid fa-check"></span></td>
+														</tr>
+														<tr>
+															<td>Web & mobile experience</td>
+															<td><span class="icon solid fa-check"></span></td>
+															<td><span class="icon solid fa-check"></span></td>
+															<td><span class="icon solid fa-check"></span></td>
+															<td><span class="icon solid fa-check"></span></td>
+														</tr>
+													</tbody>
+												</table>
+												<table>
+													<thead>
+														<tr>
+															<td>&nbsp;</td>
+														</tr>
+														<tr>
+															<th>UX & UI Observations</th>
+														</tr>
+														<tr>
+															<th>App</th>
+															<th>Strengths</th>
+															<th>Weaknesses</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td>GetMaple</td>
+															<td>Clean, minimal UI; easy access to specialist care</td>
+															<td>Lack of AI-driven assistance</td>
+														</tr>
+														<tr>
+															<td>Babylon Health</td>
+															<td>Cutting-edge design; intuitive AI triage; personalized content</td>
+															<td>Onboarding can feel data-heavy and clinical</td>
+														</tr>
+														<tr>
+															<td>TiaHealth</td>
+															<td>Quick booking flow; family-friendly experience; good price transparency</td>
+															<td>Lacks visual polish; less refined mobile experience</td>
+														</tr>
+														<tr>
+															<td>Teladoc Health</td>
+															<td>Reliable and fast; trusted brand; good appointment management UX</td>
+															<td>UI feels outdated in places; limited proactive care features</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+											<span class="image fit"><img src="images/onboarding-competitiveanalysis.png" alt="competitiveanalysis" />
+												<figcaption>2 / 24 - Competitive analysis on digital healthcare</figcaption></span>
 										</dd>
 
 										<dt>User research</dt>
 										<dd>
-											<span class="image fit"><img src="images/onboarding-usersurvey.png" alt="" />
-												<figcaption>Fig.1 - Image 11</figcaption></span>
+											<p>* User survey<br>
+												Participants: 100 users, aged 22–65 <br>
+												Objective: To determine how much users familiar to the telehealth / asynchronous concept.<br>
+												</p>
+											<p>* User interview<br>
+												Participants: 10 users, aged 22–65 <br>
+												Objective: To understand user expectations, preferences, pain points, and trust factors related to onboarding to an asynchronous digital healthcare.<br>
+												</p>
+											<span class="image fit"><img src="images/onboarding-usersurvey.png" alt="user-research" />
+												<figcaption>3 / 24 - User research focused on understanding patient familiarity with asynchronous telehealth</figcaption></span>
+											<p>Findings</p>
+												<ul>
+													<li>User Behavior in Digital Healthcare - Patients often prefer minimal interaction in health app, especially during the initial stages.</li>
+													<li>Complexity of Dermatological Care - Asking for too much information upfront can frustrate users who might not yet understand why it is necessary.</li>
+													<li>Engagement Patterns - If onboarding is not designed to be quick and relevant, users are less likely to engage with the app’s core functions, such as submitting their first consultation request.</li>
+													<li>Personalization Trends - Personalization has proven to be a key factor in increasing user satisfaction and engagement, especially in healthcare.</li>
+													<li>Asynchronous Care - Clear communication and patient education were critical to success.</li>
+												</ul>
 										</dd>
 										
+
 										<dt>Stakeholder interviews</dt>
-										<p>Conducting interviews sessions with Doctors, PM, Product team provided me with data and insights from the business's point of view. The session helped me uncover and organize the context, identify the business goals.</p>
 										<dd>
-											<span class="image fit"><img src="images/onboarding-stakeholder-interview.png" alt="" />
-												<figcaption>Fig.1 - Image 11</figcaption></span>
+											<p>* Business / Strategy<br>
+												Participants: CEO, Product Owner, Marketing specialist <br>
+												Objective: To understand business model, success metrics, user acquisition.<br>
+												</p>
+											<p>* Clinical / Medical<br>
+												Participants: Dermatologists, Nurses <br>
+												Objective: To understand workflow, diagnostic needs, patients needs.<br>
+												</p>
+											<p>* Technical / Product<br>
+												Participants: CTO, Backend developers, Frontend developer.<br>
+												Objective: To understand limitations, opportunities, and platform capability.<br>
+												</p>
+											<p>Findings</p>
+											<ul>
+												<li>Business Priorities vs. User Needs <br>Deliver a tool that reduces clinician time per case without compromising care quality. Increase patient retention by offering fast, convenient, and trusted care.</li>
+												<li>Pain Points in Current Workflow <br>Doctors are frequently asked the same concern multiple times, with patients seeking clarification or reassurance. This results in a time-consuming back-and-forth that strains efficiency. Patients experience delays in receiving diagnoses, especially when clarification or follow-up is required.</li>
+												<li>Opportunities for Improvement (UX + Process) <br>Smarter intake with condition-specific logic and guided photo capture. Structured clinical templates for common dermatologic diagnoses.</li>
+												<li>Clinical & Technical Requirements <br>Mobile first design and web accessibility support. </li>
+											</ul>
 										</dd>
 
-										<dt>Key takeaways</dt>
-										<dd>
-											<p>Research confirms that patients prefer a streamlined onboarding experience with minimal friction. Balancing dermatological assessment complexity with usability is key to preventing frustration. Personalization improves engagement, while clear communication and education build trust. A well-structured onboarding flow is essential for better user adoption and satisfaction.</p>
-										</dd>
-										
-										<dt>User personas</dt>
-										<dd>
-											<span class="image fit"><img src="images/onboarding-userpersonas.png" alt="" />
-												<figcaption>Fig.1 - Image 11</figcaption></span>
+										<dt>Outcomes</dt>
+										<dd><b>ORO Health White-Label at high-level</b> <br><br>
+											<span class="image fit"><img src="images/onboarding-highlevel.png" alt="App-high-level" />
+												<figcaption>4 / 24 - Information Architecture Map - visualizing the structure, flow, and relationships between different sections of the app</figcaption></span>
 										</dd>
 
-										<h3>Problem statement</h3>
-										<blockquote>Patients using digital healthcare apps need a way to quickly access care with minimal friction because lengthy forms and complex workflows can lead to frustration and drop-offs, reducing engagement with essential features like submitting a consultation request.</blockquote>
+										<dd><b>User personas</b>
+											<span class="image fit"><img src="images/onboarding-userpersonas3.png" alt="user-personas" />
+												<figcaption>5 / 24 - User personas</figcaption></span>
+										</dd>
+
+										<dd><b>Problem statement</b><br><br>
+											<p>Doctors need an efficient, asynchronous tool that enables them to review, diagnose, and treat patient cases at flexible times that align with their busy and unpredictable schedules. Meanwhile, Patients need a frictionless way to access care, especially for non-urgent conditions. Long intake forms, unclear steps, and delayed responses often lead to frustration, mistrust, or abandonment before completing the process.</p>
+										</dd>
 										
 									</dl>
 								</section>
@@ -142,28 +353,22 @@
 								<!-- Challenges and Solutions -->
 								<section id="ideate">
 									<h1>Phase 1. Ideation</h1>
+
+									<h2>User Group 1- Patients</h2>
+									<p style="font-size: 20pt;">As a <b>patient</b>, Marie, a young, tech-savvy office staff, needs a way to get a quick and accurate diagnosis remotely because traditional in-person consultations often involve long wait times and unnesscary visit for conditions that could be resolved through photos and messaging.</p>
 									
 									<dl>
-										<h3>How Might We</h3>
+										<dt>How Might We</dt>
 										<blockquote>How might we make the onboarding process seamless and intuitive to reduce friction for first-time users so they will engage with the app deeper and longer?</blockquote>
 										
 
 										<dt>Brainstorm using card sorting</dt>
-										<dd>
-											<p>To ensure an intuitive and engaging onboarding experience, I began by mapping out the user journey through a user story and user flow diagram. This approach helped translate insights into actionable solutions and provided a clear, understandable document for discussion with stakeholders.</p>
-											<span class="image fit"><img src="images/onboarding-brainstorming.png" alt="" />
-												<figcaption>Fig.1 - User onboarding flow</figcaption></span>
-										</dd>
+										<p>I began by mapping out the user journey through a user story and user flow diagram. This approach helped translate insights into actionable solutions and provided a clear, understandable document for discussion with stakeholders.</p>
+										<span class="image fit"><img src="images/onboarding-brainstorming.png" alt="brainstorming" /><figcaption>6 / 24 - Define user journey using card sorting</figcaption></span>
 										<dt>Define user onboarding flow</dt>
-										<dd>
-											<span class="image fit"><img src="images/onboarding-userjourneymap.png" alt="" />
-												<figcaption>Fig.1 - User onboarding flow</figcaption></span>
-										</dd>
+										<span class="image fit"><img src="images/onboarding-userjourneymap.png" alt="userjourneymap" /><figcaption>7 / 24 - User onboarding's created flow on FigJam</figcaption></span>
 										<dt>Validate design concept </dt>
-										<dd>
-											<span class="image fit"><img src="images/onboarding-validatedesignconcept.png" alt="" />
-												<figcaption>Fig.1 - User onboarding flow</figcaption></span>
-										</dd>
+										<span class="image fit"><img src="images/onboarding-validatedesignconcept.png" alt="validatedesignconcept" /><figcaption>8 / 24 - Validate design concept with the team using sketches on Miro</figcaption></span>
 
 										<p>Based on the instructive opinion from the ideation session with the team, I defined a roadmap of UX improvements including:</p>
 										<ul>
@@ -171,23 +376,56 @@
 											<li>Make the consultation types more standout</li>
 											<li>Move sign-up step toward the end of the process</li>
 											<li>Keep design flexible for feature added later on: Follow-up Consultation</li>
-										</ul>
-										
+										</ul>	
 									</dl>
+
+									<br>
+									<br>
+
+									<h2>User Group 2- Doctors</h2>
+									<p style="font-size: 20pt;">As a <b>doctor</b>, Emilie, an experienced medical doctor, needs a way to manage and respond to non-urgent cases efficiently because repetitive follow-up questions and real-time appointments consume valuable time and reduce their ability to treat more complex cases.</p>
+									<dl>
+										<dt>How Might We</dt>
+										<blockquote>How might we support dermatologists in efficiently handling their caseload and delivering consistent diagnoses, treatment plans at their convenience by reducing repetitive tasks?</blockquote>
+
+										<dt>Doctors' interviews</dt>
+										<p>
+											Participants: 2 dermatologists from Dermago clinic. Each with 8-15 years of clinical experience, seeing both new and returning patients. <br>
+											Objective: 
+											<ul>
+												<li>Understand doctors' current workflows</li>
+												<li>Identify pain points in managing cases</li>
+												<li>Gather insights into how digital tools could support their job</li>
+											</ul>
+											</p>
+										
+										<dt>Outcomes</dt>
+										<dd>Doctor's workflow handling a consultation case <br><br>
+										<span class="image fit"><img src="images/onboarding-stakeholder-interview.png" alt="stakeholders-interviews" />
+											<figcaption>9 / 24 - Doctor interviews focused on the consultation workflow—how doctors handle individual cases</figcaption></span></dd>
+
+										<dd>Doctor's Empathy map and User Journey <br><br>
+										<span class="image fit"><img src="images/onboarding-brainstorming2.png" alt="brainstorming2" /><figcaption>10 / 24 - Doctor's Empathy Map and User Journey</figcaption></span></dd>
+
+										<dd>UI drafting <br><br>
+										<span class="image fit"><img src="images/onboarding-UIdrafting.png" alt="uidrafting" /><figcaption>11 / 24 - Quick drafts of Doctor's user interface</figcaption></span></dd>
+									</dl>
+
 								</section>
 								<hr/>
 
 								<section id="design">
 									<h1>Phase 2. Design</h1>
+									<h2>Patient onboarding flow</h2>
 									<dl>
 										<dt>Design challenge 1 - Educate users about what's the app offers to reduce cognitive load</dt>
 										
 										<dd>
-											<blockquote>Users who are unfamiliar with asynchronous heal care apps often feel uncertain about the app’s full capabilities. Without proper guidance or an introduction to key features, user may feel overwhelmed or miss out on valuable services, leading to lower engagement and even abandonment.</blockquote>
+											<blockquote>Users who are unfamiliar with asynchronous healthcare apps often feel uncertain about the app’s full capabilities. Without proper guidance or an introduction to key features, user may feel overwhelmed or miss out on valuable services, leading to lower engagement and even abandonment.</blockquote>
 											
 											<p>To address this, I designed a <b>guided walkthrough</b> that introduces new users to the app’s core features during the onboarding process. This walkthrough aimed to <b>educate users upfront</b> about what the app offers before they began exploring it independently. The walkthrough included a <b>brief, straight toward overview</b> of the app’s main services, such as how to submit skin consultation, receive expert advice, and manage follow-up consultations. By simplifying the explanation with visual and description, I reduced confusion and built confidence in the process.</p>
-											<span class="image fit"><img src="images/onboading-walkthrough.png" alt="" />
-												<figcaption>Fig.1 - Breaking the onboarding into manageable steps, users feel less overwhelmed and are more likely to complete the process.</figcaption>
+											<span class="image fit"><img src="images/onboading-walkthrough.png" alt="walkthrough" />
+												<figcaption>12 / 24 - Guided walkthrough screens introduce the app's core features during the onboading process</figcaption>
 											</span>
 										</dd>
 
@@ -196,8 +434,8 @@
 											<blockquote>Users needed to choose whether the consultation was for themselves, their child, or someone in their care. The app had to handle these different scenarios smoothly without confusing users.</blockquote>
 											<p>I designed a <b>decision-making interface</b> early in the onboarding process where users could easily select the type of consultation they needed. Each option was accompanied by clear, concise descriptions and visual cues (icons and short text) to ensure that users could make an informed choice.</p>
 											<p>The onboarding flow dynamically adjusted based on the user’s choice, offering tailored questions and information for each case.</p>
-											<span class="image fit"><img src="images/onboading-step1and2.png" alt="" />
-												<figcaption>Fig.1 - The onboarding flow dynamically adjusted based on the user’s choice, offering tailored questions and information for each case.</figcaption>
+											<span class="image fit"><img src="images/onboading-step1and2.png" alt="onboading-step1and2" />
+												<figcaption>13 / 24 - The onboarding flow dynamically adjusted based on the user’s choice, offering tailored questions and information for each case.</figcaption>
 											</span>
 										</dd>
 
@@ -223,102 +461,261 @@
 												<li>Microcopy: use friendly, supportive language throughout the process to keep users engaged and help them understand the app’s value.</li>
 											</ul>
 											-->
-											<span class="image fit"><img src="images/onboading-groupinginformation.png" alt="" />
-												<figcaption>Fig.1 - Breaking the onboarding into manageable steps, users feel less overwhelmed and are more likely to complete the process.</figcaption>
+											<span class="image fit"><img src="images/onboading-groupinginformation.png" alt="data-set" />
+												<figcaption>14 / 24 - Breaking the onboarding into manageable steps, users feel less overwhelmed and are more likely to complete the process.</figcaption>
 											</span>
 										</dd>
 										<dt>Design challenge 4 - Allow users go through onboarding without Sign-Up Interruption</dt>
 										<dd>
 											<blockquote>Many users become frustrated when healthcare apps force them to sign in or create an account before they can explore the app, or understand its value. This often leads to drop-offs during the onboarding process.</blockquote>
 											<p>I designed the onboarding flow to <b>defer sign-in until the end of the process</b>. Users could go through the consultation selection, answer medical questionnaire and treatment preference, and get a feel for the app’s functionality <b>before being prompted to sign in or create an account</b>.</p>
-											<span class="image fit"><img src="images/onboading-signup.png" alt="" />
-												<figcaption>Fig.1 - Delaying the sign-in request until the user was ready to submit their first consultation helps reduce friction and allowe users to engage with the app more freely. This approach built trust and helped users understand the app’s value before committing to registration.</figcaption>
+											<span class="image fit"><img src="images/onboading-signup.png" alt="onboading-signup" />
+												<figcaption>15 / 24 - Delaying the sign-in request until the user was ready to submit their first consultation helps reduce friction and allowe users to engage with the app more freely. This approach built trust and helped users understand the app’s value before committing to registration.</figcaption>
 											</span>
 											<p>By delaying the sign-in request until the user was ready to submit their first consultation, it reduced friction and allowed users to engage with the app more freely. This approach built trust and helped users understand the app’s value before committing to registration.</p>
-										</dd>										
+										</dd>	
+										<br>
+										<br>
+									</dl>
+
+									<h2>Doctor working flow</h2>
+									<dl>
+										<dt>Design challenge 1 - Helping doctors manage consultation requests effectively</dt>
+										<dd>
+											<blockquote>Doctors were overwhelmed by the volume of consultation requests and wishes a structured way to quickly assess, sort, or prioritize them. The importance of an intuitive listing made it easier to track the progress systematically.</blockquote>
+											<p>I designed a Consotation Grid View - a centralized hub where all incoming and ongoing cases are presented at a glance. Each request item highlights essential information upfront like: Patient name & age, Time since submission, Case urgency, Type of issue, Status</p>
+											<p>I also applied visual clue like icons to reduce the cognitive load. Beside, doctors can filter, search, and sort to focus on priority cases.</p>
+											<span class="image fit"><img src="images/onboarding-doctor-gridview.png" alt="doctor-gridview" />
+												<figcaption>16 / 24 - Consultation grid view</figcaption>
+											</span>
+											<p>This improved case triaging, and saved time navigating through patient queues.</p>
+										</dd>
+
+										<dt>Design challenge 2 - Enabling doctors to diagnose and provide treatments efficiently</dt>
+										<dd>
+											<blockquote>Providing diagnoses and treatment plans for common skin conditions is often a straightforward task—but it is also time-consuming and highly repetitive. By enabling doctors with a streamlined and efficient way to handle these cases, we can significantly reduce cognitive load and manual effort, increase productivity, and ultimately make their day-to-day workflow more manageable and satisfying.</blockquote>
+											<p>To address this, I designed a focused consultation workspace where doctors can efficiently process a case without context switching.</p>
+											<span class="image fit"><img src="images/onboarding-doctor-ViewCase.png" alt="doctor-ViewCase" />
+												<figcaption>17 / 24 - Displaying patient's summarized data sets by using Collapsed/Expanded Cards</figcaption></span>
+											<span class="image fit"><img src="images/onboarding-doctor-DxTx-New.png" alt="doctor-DxTx-New" />
+												<figcaption>18 / 24 - Start consultation by adding Diagnosis & Treatment Plans</figcaption></span>
+											<span class="image fit"><img src="images/onboarding-doctor-DxTx-Added.png" alt="doctor-DxTx-Added" />
+												<figcaption>19 / 24 - Finish up a consultation case</figcaption>
+											</span>
+										</dd>
+
+										<dt>Design challenge 3 - Ensuring continuity of care in Follow-up Consultations for better long-term care</dt>
+										<dd>
+											<blockquote>Providing doctors with a streamlined way to manage follow-up consultations improves efficiency and continuity of care. Currently, doctors may need to revisit past records manually or rely on nurses to retrieve previous patient information—adding friction to the process. Without clear access to consultation history, important context may be lost, impacting the quality of care and consistency of treatment plans.</blockquote>
+											<p>I designed a Consultation History feature within each case, then doctors could use this historical insight to make more informed follow-up decisions and tailor future treatment plans based on observed progress.</p>
+											<span class="image fit"><img src="images/onboarding-doctor-FollowUp-design.png" alt="doctor-FollowUp-design" />
+												<figcaption>20 / 24 - Displaying patient's Consultations in the past to provide doctors a better context during diagnosis and treatment</figcaption></span>
+										</dd>
 									</dl>
 								</section>
 								<hr/>
 
 								<section id="test">
 									<h1>Phase 3. Test, Iteration</h1>
+									<h2>Patients' experience test</h2>
 									<dl>
-										<dt>Usability Testing</dt>
+										<dt>Objectives</dt>
 										<dd>
-											<p>Using clickable prototypes, I conducted various validation sessions with stakeholders, and 10 1st-time users.</p>
-											<p>The feedback was expected to provide specific insights towards:</p>
+											<p>To identify usability issues that affect ease of use, clarity, and overall satisfaction for patients on how they:</p>
 											<ul>
-												<li>Learning that how users like/dislike about the app, and what would entice them to eventually submit a consultation request.</li>
-												<li>Identifying any particular issues that might discourage users from using the app.</li>
-												<li>Any usability issues the app might have.</li>
+												<li>Submit consultation requests efficiently and confidently</li>
+												<li>Communicate symptoms and concerns clearly through photos and messaging</li>
 											</ul>
-											<h5>Findings</h5>
-											<ul>
-												<li>Clear Step-by-Step Progression helps users understand where they are in the process.</li>
-												<li>Concise Question Wording, Logical Information Flow, however, the forms contain a lot of input fields causes busy screen, led to users' frustration.</li>
-												<li>Some usability issues could be improved for better visual hierarchy and readability.</li>
-											</ul>
-											<span class="image fit"><img src="images/onboarding-usertesting.png" alt="" />
-												<figcaption>Fig.1 - User testing findings used The rainbow spreadsheet framework</figcaption>
+										</dd>
+										
+										<dt>Methodology</dt>
+										<dd>
+											<p>
+												<b>Participants:</b> 10 first-time users <br>
+												<b>Method:</b> Remote moderated test using a clickable prototype (Figma)<br>
+												<b>Task assigned:</b>
+												<ol>
+													<li>Start a new consultation, describe symptoms, and upload photos of the skin issue</li>
+													<li>Select the treatment plan, complete payment, and submit the consultation request</li>
+													<li>Send messages to the doctor</li>
+												</ol>
+											</p>
+										</dd>	
+
+										<dt>Key findings and usability issues</dt>
+										<dd>
+											<span class="image fit"><img src="images/onboarding-usertesting.png" alt="onboarding-usertesting" />
+												<figcaption>21 / 24 - Using the rainbow spreadsheet framework for user testing findings</figcaption>
 											</span>
+											<h5>1) Overwhelming Input Forms → Drop-Off Risk</h5>
+											<p>Long and dense input forms caused users to feel overwhelmed early in the process. Some users hesitated or skipped optional questions, expressing that the effort felt “too much” before even submitting the consultation. This friction increases the risk of abandonment.</p>
+											<h5>2) Poor Layout Clarity → Confusion and Navigation Struggles</h5>
+											<p>A progress bar (top of screen on both mobile and desktop) contributed to visual clutter, making it harder for users to focus on the task. Additionally, the [Back] button placement—too far down the screen—was difficult to reach, especially on mobile, slowing task completion and increasing frustration.</p>
 										</dd>
 
-										<dt>Design Improvement</dt>
-										<dd>
-											<h5>Visual Hierarchy and Readability</h5>
+										<dt>Proposed solution</dt>
+										<dd><h5>Simplify design layout to improve Visual Hierarchy and Readability</h5>
 											<ul>
 												<li>Updated the color system to improved the contrast between text fields and background for better readability.</li>
 												<li>Redesign the header section, particularly the progress indicator to help the layout got a minimal look.</li>
 											</ul>
-											<span class="image fit"><img src="images/onboarding-redesigntemplate.png" alt="" />
-												<figcaption>Fig.1 - The preloaded data feature not only streamlined the follow-up process but also contributed to an overall sense of continuity in care, allowing patients to feel that their medical journey was being manage seamlessly and with minimal effort on their part.</figcaption>
+											<span class="image fit"><img src="images/onboarding-redesigntemplate.png" alt="onboarding-redesigntemplate" />
+												<figcaption>22 / 24 - The preloaded data feature not only streamlined the follow-up process but also contributed to an overall sense of continuity in care, allowing patients to feel that their medical journey was being manage seamlessly and with minimal effort on their part.</figcaption>
 											</span>
-											<h5>Cognitive Load & Information Density</h5>
+										</dd>
+										<dd><h5>Reduce Cognitive Load & Information Density by spliting content to multi-managable steps</h5>
 											<ul>
 												<li>The forms contain a lot of input fields on a single screen. Breaking them down into smaller sections by adding more space in between might reduce overwhelm.</li>
 												<li>Using progressive disclosure (showing additional fields only when relevant).</li>
 											</ul>
-											<span class="image fit"><img src="images/onboarding-redesignsteps.png" alt="" />
-												<figcaption>Fig.1 - The preloaded data feature not only streamlined the follow-up process but also contributed to an overall sense of continuity in care, allowing patients to feel that their medical journey was being manage seamlessly and with minimal effort on their part.</figcaption>
+											<span class="image fit"><img src="images/onboarding-redesignsteps.png" alt="onboarding-redesignsteps" />
+												<figcaption>23 / 24 - The preloaded data feature not only streamlined the follow-up process but also contributed to an overall sense of continuity in care, allowing patients to feel that their medical journey was being manage seamlessly and with minimal effort on their part.</figcaption>
 											</span>
 										</dd>
-
-										<dt>Results</dt>
-										<dd>
-											<span class="image fit"><img src="images/onboarding-resultmobile.png" alt="" />
-												<figcaption>Fig.1 - The preloaded data feature not only streamlined the follow-up process but also contributed to an overall sense of continuity in care, allowing patients to feel that their medical journey was being manage seamlessly and with minimal effort on their part.</figcaption>
-											</span>
-										</dd>
-										<dd>
-											<span class="image fit"><img src="images/onboarding-resultdesktop1.png" alt="" />
-												<figcaption>Fig.1 - The preloaded data feature not only streamlined the follow-up process but also contributed to an overall sense of continuity in care, allowing patients to feel that their medical journey was being manage seamlessly and with minimal effort on their part.</figcaption>
-											</span>
-											<span class="image fit"><img src="images/onboarding-resultdesktop2.png" alt="" />
-												<figcaption>Fig.1 - The preloaded data feature not only streamlined the follow-up process but also contributed to an overall sense of continuity in care, allowing patients to feel that their medical journey was being manage seamlessly and with minimal effort on their part.</figcaption>
-											</span>
-										</dd>
-
-										<dt>Outcomes</dt>
-										<p>After implementing UX improvements based on initial user feedback, a second round of user testing was conducted with 5 users to validate the changes. Here are the key results:</p>
-										<ul>
-											<li>Completion Rate Increased by 22% – Breaking long forms into smaller chunks and streamlining inputs reduced drop-offs.</li>
-											<li>Higher user satisfaction – Clearer UI, improved navigation, and better form structure resulted in 85% positive feedback.</li>
-											<li>Increased confidence in submission – The summary step and confirmation message reassured 90% of users.</li>
-										</ul>
-
 									</dl>
+
+									<h2>Doctors' experience test</h2>
+									<dl>
+										<dt>Objectives</dt>
+										<dd>
+											<p>To identify usability issues that affect speed, clarity, and satisfaction for doctors on how:</p>
+											<ul>
+												<li>Efficient consultation triage and management</li>
+												<li>Fast and confident diagnosis & treatment workflows</li>
+											</ul>
+										</dd>
+										
+										<dt>Methodology</dt>
+										<dd>
+											<p>
+												<b>Participants:</b> 2 dermatologists <br>
+												<b>Method:</b> Remote moderated test using a clickable prototype (Figma) <br>
+												<b>Task assigned:</b>
+												<ol>
+													<li>View and prioritize consultation requests</li>
+													<li>Diagnose a case and submit a treatment plan</li>
+													<li>Handle a follow-up case (review history and provide updated care)</li>
+												</ol>
+											</p>
+										</dd>	
+
+										<dt>Key findings and usability issues</dt>
+										<dd>
+											<h5>1) Friction in Accessing Follow-Up Case History</h5>
+											<p>During usability testing, both doctors experienced friction when trying to access prior information related to a follow-up consultation. The current flow separates the follow-up case from its previous instances. To retrieve past records, doctors had to:</p>
+											<ul>
+												<li>Open the current case</li>
+												<li>Click into [View consultation history]</li>
+												<li>Select and open the previous case's details</li>
+											</ul>
+											<p>This multi-step process slowed them down.</p>
+											<h5>2) The consultation history was plit into two tabs - Follow-ups vs. Others - which caused confusion</h5>
+											<p>Doctors were unsure why the same patient's consultation records were divided and had difficulty define the relevant information in the current context.</p>
+											<h5>3) Lack of Skin Progression context</h5>
+											<p>Seeing only the current state skin photos was insufficient for understanding the treatment's effectiveness over time. Doctors wanted an overview of skin progression to assess whether the condition had improved, worsened, or remained unchanged.</p>
+										</dd>
+
+										<dt>Proposed solution</dt>
+										<dd>
+											<p>Expanded grid view with parent/child items allows doctors to access related sub-items directly within the context of the larger list, without navigating away. This approach also reduces the need to separate consultation history into two tabs, helping to minimize unnecessary information and keep the context more focused.</p>
+											<p>For follow-up usecase, add Skin Progression section to case's details, introduce a visual timeline and gallery of skin photos, showing all submissions in chronological order. </p>
+											<span class="image fit"><img src="images/onboarding-doctor-FollowUp.png" alt="doctor-FollowUp-iterate" />
+												<figcaption>24 / 24 - Streamline follow-up consultations by implementing an expandable grid view that surfaces prior cases directly within the main list, and by introducing skin progression tracking to provide doctors with clear visual context over time.</figcaption>
+											</span>
+										</dd>
+									</dl>
+									
+									<section id="results">
+										<p>&nbsp;</p>
+										<h2>Results</h2>
+										<dl>
+										<!--
+											<dt>Mobile version</dt>
+											<dd>
+												<span class="image fit"><img src="images/onboarding-resultmobile.png" alt="" />
+													<figcaption>Fig.1 - The preloaded data feature not only streamlined the follow-up process but also contributed to an overall sense of continuity in care, allowing patients to feel that their medical journey was being manage seamlessly and with minimal effort on their part.</figcaption>
+												</span>
+											</dd>
+											<dd>
+												<span class="image fit"><img src="images/onboarding-resultdesktop1.png" alt="" />
+													<figcaption>Fig.1 - The preloaded data feature not only streamlined the follow-up process but also contributed to an overall sense of continuity in care, allowing patients to feel that their medical journey was being manage seamlessly and with minimal effort on their part.</figcaption>
+												</span>
+												<span class="image fit"><img src="images/onboarding-resultdesktop2.png" alt="" />
+													<figcaption>Fig.1 - The preloaded data feature not only streamlined the follow-up process but also contributed to an overall sense of continuity in care, allowing patients to feel that their medical journey was being manage seamlessly and with minimal effort on their part.</figcaption>
+												</span>
+											</dd>
+										-->
+
+											<dt>Mobile version</dt>
+											<p>(F5 to view clearer pictures when it's blur)</p>
+											<div class="scroll-wrapper">
+												<!--<div class="gradient left"></div>-->
+												<div class="scroll-container">
+													<div class="scroll-content">
+														<img src="images/onboarding-resultmobile1.png" alt="Image1">
+														<img src="images/onboarding-resultmobile2.png" alt="Image2">
+														<!-- duplicate images for infinity effect -->
+														<img src="images/onboarding-resultmobile1.png" alt="Image1">
+														<img src="images/onboarding-resultmobile2.png" alt="Image2">
+													</div>
+												</div>
+												<!--<div class="gradient right"></div>-->
+											</div>
+
+											<dt>Desktop version</dt>
+											<div class="scroll-wrapper">
+												<!--<div class="gradient left"></div>-->
+												<div class="scroll-container">
+													<div class="scroll-content">
+														<img src="images/onboarding-resultdesktop3.png" alt="Image3">
+														<img src="images/onboarding-resultdesktop4.png" alt="Image4">
+														<img src="images/onboarding-resultdesktop1.png" alt="Image1">
+														<img src="images/onboarding-resultdesktop2.png" alt="Image2">
+														<img src="images/onboarding-resultdesktop51.png" alt="Image51">
+														<img src="images/onboarding-resultdesktop5.png" alt="Image5">
+														<img src="images/onboarding-resultdesktop6.png" alt="Image6">
+														<img src="images/onboarding-resultdesktop7.png" alt="Image7">
+														<!-- duplicate images for infinity effect -->
+														<img src="images/onboarding-resultdesktop1.png" alt="Image1">
+														<img src="images/onboarding-resultdesktop2.png" alt="Image2">
+														<img src="images/onboarding-resultdesktop3.png" alt="Image3">
+														<img src="images/onboarding-resultdesktop4.png" alt="Image4">
+														<img src="images/onboarding-resultdesktop51.png" alt="Image51">
+														<img src="images/onboarding-resultdesktop5.png" alt="Image5">
+														<img src="images/onboarding-resultdesktop6.png" alt="Image6">
+														<img src="images/onboarding-resultdesktop7.png" alt="Image7">
+													</div>
+												</div>
+												<!--<div class="gradient right"></div>-->
+											</div>
+										</dl>
+									</section>
 								</section>
 								<hr>
+
+								<section>
+									<h1>Outcomes</h1>
+									<p>After implementing UX improvements based on initial user feedback, a second round of user testing was conducted with 5 users to validate the changes. Here are the key results:</p>
+									<ul>
+										<li>Completion Rate Increased by 22% – Breaking long forms into smaller chunks and streamlining inputs reduced drop-offs.</li>
+										<li>Higher user satisfaction – Clearer UI, improved navigation, and better form structure resulted in 85% positive feedback.</li>
+										<li>Increased confidence in submission – The summary step and confirmation message reassured 90% of users.</li>
+									</ul>
+								</section>
 								
 
 								<!-- Key Learnings -->
-								<h1>Key Learnings</h1>
-								<ul>
-									<li><b>Validation Through Iteration is Essential</b><br> Initial assumptions about user behavior can be misleading. Stakeholder reviews, internal usability testing, and real user interviews helped refine the onboarding process, making it more intuitive and user-friendly.</li>
-									<li><b>Transparency Builds Trust</b><br> Users hesitate to explore more on apps when display information are unclear. Providing clear explanations upfront increased confidence and user commitment.</li>
-								</ul>
+								<section id="learnings">
+									<p>&nbsp;</p>
+									<h1>Key Learnings</h1>
+									<ul>
+										<li><b>Stakeholder Collaboration is Foundational</b><br> Working closely with stakeholders from the beginning was crucial. Early alignment through interviews and requirement gathering helped surface real workflow challenges and business expectations—ensuring the design stayed grounded, strategic, and relevant throughout the process.</li>
+										<li><b>Design Thinking Brings Clarity to Complex Workflows</b><br> Applying a structured design thinking approach helped break down complex consultation workflows into actionable design challenges. By moving from insights to ideation, and through continuous testing, I was able to develop targeted solutions that streamlined both doctor and patient experiences.</li>
+										<li><b>Testing with Real Users is essential</b> Usability testing with real doctors and patients uncovered critical friction points that weren’t obvious during design. These insights led to key design iterations—like simplified form structures and better follow-up management—that improved usability, efficiency, and satisfaction for both user groups.</li>
+									</ul>
 
-								<h3>Thank you for reading!</h3>
+									<h3>Thank you for reading!</h3>
+								</section>
 							</div>
 						</section>
 					</div>
