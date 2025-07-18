@@ -2765,7 +2765,7 @@ input, select, textarea {
 			min-height: 23em;
 			overflow: hidden;
 			position: relative;
-			width: 40%;
+			width: 60%;
 		}
 
 			.tiles article .image {
@@ -2841,23 +2841,27 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
-				width: 60%;
+				width: 40%;
 			}
 
 			.tiles article:nth-child(6n - 5):before {
 				background-color: #6fc3df;
+				background-color: #01796F;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
 				background-color: #8d82c4;
+				background-color: #002366;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
 				background-color: #ec8d81;
+				background-color: #32174D;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
 				background-color: #e7b788;
+				background-color: #4A412A;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
@@ -3388,32 +3392,33 @@ input, select, textarea {
 		}
 
 /* Banner */
+		/* V0. 
+		#banner {
+			-moz-align-items: center;
+			-webkit-align-items: center;
+			-ms-align-items: center;
+			align-items: center;
+			background-image: url("../../images/banner.jpg");
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			padding: 6em 0 2em 0 ;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			border-bottom: 0 !important;
+			cursor: default;
+			height: 60vh;
+			margin-bottom: -3.25em;
+			max-height: 32em;
+			min-height: 22em;
+			position: relative;
+			top: -3.25em;
+		}
 
-	#banner {
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		background-image: url("../../images/banner.jpg");
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		padding: 6em 0 2em 0 ;
-		background-attachment: fixed;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		border-bottom: 0 !important;
-		cursor: default;
-		height: 60vh;
-		margin-bottom: -3.25em;
-		max-height: 32em;
-		min-height: 22em;
-		position: relative;
-		top: -3.25em;
-	}
-
+	
 		#banner:after {
 			-moz-transition: opacity 2.5s ease;
 			-webkit-transition: opacity 2.5s ease;
@@ -3434,8 +3439,8 @@ input, select, textarea {
 			top: 0;
 			width: 100%;
 			z-index: 1;
-		}
-
+		} */
+	
 		#banner h1 {
 			font-size: 3.25em;
 		}
@@ -3599,6 +3604,154 @@ input, select, textarea {
 				}
 
 		}
+
+		/* Particles effect 1 */
+		#banner {
+			-moz-align-items: center;
+			-webkit-align-items: center;
+			-ms-align-items: center;
+			align-items: center;
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 6em 0 2em 0 ;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			border-bottom: 0 !important;
+			cursor: default;
+			height: 60vh;
+			margin-bottom: -3.25em;
+			max-height: 32em;
+			min-height: 22em;
+			position: relative;
+			top: -3.25em;
+			z-index: 0;
+		}
+		
+		#banner:after {
+			-moz-transition: opacity 2.5s ease;
+			-webkit-transition: opacity 2.5s ease;
+			-ms-transition: opacity 2.5s ease;
+			transition: opacity 2.5s ease;
+			-moz-transition-delay: 0.75s;
+			-webkit-transition-delay: 0.75s;
+			-ms-transition-delay: 0.75s;
+			transition-delay: 0.75s;
+			pointer-events: none;
+			background-color: #242943;
+			content: '';
+			display: block;
+			height: 100%;
+			left: 0;
+			opacity: 0.85;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: -1;
+		}
+	
+
+		#canvas {
+			display: block;
+      cursor: auto;
+
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 0;
+			pointer-events: auto;
+		}
+
+		#banner .inner,	#banner .content {
+  	position: relative;
+  	z-index: 1;
+		}
+
+		#svgInput {
+				margin: 10px 0;
+				padding: 8px;
+				border: 1px solid #333;
+				border-radius: 5px;
+				background: rgba(255, 255, 255, 0.1);
+				color: white;
+				width: 200px;
+		} 
+
+		/* Particles effect 2 
+		#banner {
+			-moz-align-items: center;
+			-webkit-align-items: center;
+			-ms-align-items: center;
+			align-items: center;
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 6em 0 2em 0 ;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			border-bottom: 0 !important;
+			cursor: default;
+			height: 60vh;
+			margin-bottom: -3.25em;
+			max-height: 32em;
+			min-height: 22em;
+			position: relative;
+			top: -3.25em;
+		}
+		
+		#banner:after {
+			-moz-transition: opacity 2.5s ease;
+			-webkit-transition: opacity 2.5s ease;
+			-ms-transition: opacity 2.5s ease;
+			transition: opacity 2.5s ease;
+			-moz-transition-delay: 0.75s;
+			-webkit-transition-delay: 0.75s;
+			-ms-transition-delay: 0.75s;
+			transition-delay: 0.75s;
+			pointer-events: none;
+			background-color: #242943;
+			content: '';
+			display: block;
+			height: 100%;
+			left: 0;
+			opacity: 0.85;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: -1;
+		}
+	
+
+		#canvas {
+			display: block;
+      cursor: crosshair;
+
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 2 !important;
+			pointer-events: auto;
+		}
+
+		#banner .inner,	#banner .content {
+  	position: relative;
+  	z-index: 3;
+		} */
+
 
 /* Main */
 
@@ -3965,6 +4118,7 @@ input, select, textarea {
 			visibility: visible;
 		}
 
+
 /* Infinity horizontal scrolling effect */
 		* {
 			box-sizing: border-box;
@@ -4023,5 +4177,23 @@ input, select, textarea {
 			}
 		}
 
+		/* Spline sence */
+		.spline-wrapper {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%; /* Aspect ratio: 16:9. Change as needed */
+      overflow: hidden;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    .spline-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
 
 	
