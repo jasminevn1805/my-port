@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Jasmine's Portfolio | Building a Design System</title>
+		<title>ORO Design System Case Study</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -18,26 +18,25 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo"><strong>PAX.</strong><span> by Jasmine</span></a>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
+				<header id="header">
+					<a href="index.html" class="logo"><strong>UXfolio</strong><span> by Jasmine</span></a>
+					<nav>
+						<a href="#menu">Menu</a>
+					</nav>
+				</header>
 
 				<!-- Menu -->
-					<nav id="menu">
-						<ul class="links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="landing.html">About</a></li>
-							<li><a href="generic.html">Work</a></li>
-							<li><a href="landing.html">Insight</a></li>
-						</ul>
-						<ul class="actions stacked">
-							<li><a href="#one" class="button primary fit">Get Started</a></li>
-							<!-- <li><a href="#" class="button fit">Contact</a></li> -->
-						</ul>
-					</nav>
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="aboutme.html">About</a></li>
+						<li><a href="index.html">Work</a></li>
+						<li><a href="selfnotes.html">Notes</a></li>
+					</ul>
+					<ul class="actions stacked">
+						<li><a href="https://drive.google.com/file/d/1FrDkL5VJSRFhDWaLO6HF-yThLe0lA_KF/view" class="button fit">Download my CV</a></li>
+					</ul>
+				</nav>
 
 				<!-- Main -->
 					<div id="main" class="alt">
@@ -48,7 +47,7 @@
 									<header class="major">
 										<h1>How I kickstarted a design project with Atomic Design</h1>
 										<p><b>Role:</b> UX Designer</p>
-										<p><b>Time:</b> 2022 / 2023</p>
+										<p><b>Time:</b> 2021 / 2022</p>
 									</header>
 									
 									<span class="image main"><img src="images/designsystemcover.png" alt="" /></span>
@@ -80,13 +79,13 @@
 									<dl>
 										<dt>Introduction</dt>
 										<dt>Process</dt>
-										<dd><a href="#tokens">Phase 1. Design Tokens</a></dd>
-										<dd><a href="#atoms">Phase 2. Atoms (Building blocks)</a></dd>
-										<dd><a href="#molecules">Phase 3. Molecules (Component structure)</a></dd>
-										<dd><a href="#organisms">Phase 4. Organisms (Modular Design)</a></dd>
-										<dd><a href="#templates">Phase 5. Templates</a></dd>
-										<dd><a href="#pages">Phase 6. Pages (Interface implementation)</a></dd>
-										<dd><a href="#documents">Phase 7. Documentation and Govenance</a></dd><br>
+										<dd><a href="#tokens">Step 1. Design Tokens</a></dd>
+										<dd><a href="#atoms">Step 2. Atoms (Building blocks)</a></dd>
+										<dd><a href="#molecules">Step 3. Molecules (Component structure)</a></dd>
+										<dd><a href="#organisms">Step 4. Organisms (Modular Design)</a></dd>
+										<dd><a href="#templates">Step 5. Templates</a></dd>
+										<dd><a href="#pages">Step 6. Pages (Interface implementation)</a></dd>
+										<dd><a href="#documents">Step 7. Documentation and Govenance</a></dd><br>
 										<dt>Results</dt>
 										<dt>Takeaways</dt>
 									</dl>
@@ -118,8 +117,14 @@
 										<p>In my experience as a UX designer working on various projects, I've found that the strategic implementation of a well-defined design system is paramount to the success of any digital product. It's not merely about aesthetics; it's about establishing a robust framework that drives efficiency, scalability, and a unified user experience. Let's explore how I approach this critical phase.</p>
 
 										<h3>The strategic framework</h3>
-										<p>When initiating a design project, I prioritize establishing a cohesive design language from the outset. This proactive approach mitigates design debt, fosters cross-functional alignment, and ensures the product's long-term viability. I leverage <b>Atomic Design</b> as a foundational methodology, recognizing its ability to create a <b>modular and scalable system</b>.</p>
-										<span class="image fit"><img src="images/atomic-design-tokens.png" alt="atomic-design-tokens" /><figcaption>Fig.1 - Atomic Design Tokens</figcaption></span>
+										<div class="row">
+											<div class="col-6 col-12-small">
+												<p>When initiating a design project, I prioritize establishing a cohesive design language from the outset. This proactive approach mitigates design debt, fosters cross-functional alignment, and ensures the product's long-term viability. I leverage <b>Atomic Design</b> as a foundational methodology, recognizing its ability to create a <b>modular and scalable system</b>.</p>
+											</div>
+											<div class="col-6 col-12-small">
+												<span class="image fit"><img src="images/atomic-design-tokens.png" alt="atomic-design-tokens" /><figcaption>1 / 11 - Atomic Design concept</figcaption></span>
+											</div>
+										</div>
 									</section>
 									<hr>
 
@@ -129,8 +134,8 @@
 										<p>My process for implementing Atomic Design is systematic and focused on creating a clear hierarchy of design elements.</p>
 
 										<section id="tokens">
-											<h2>Phase 1. Design Tokens</h2>
-											<p>This phase involves identifying and defining the fundamental visual elements. This includes establishing a consistent color palette, a readable typographic system, and a standardized spacing and grid structure. These elements form the base of the design system.<br><br><b>#1 - Create Design Tokens categories</b></p>
+											<h2>Step 1. Design Tokens</h2>
+											<p>This step involves identifying and defining the fundamental visual elements. This includes establishing a consistent color palette, a readable typographic system, and a standardized spacing and grid structure. These elements form the base of the design system.<br><br><b>#1 - Design Tokens categories includes:</b></p>
 											
 											<ul class="alt">
 												<li>Color - Define a color palette as design base (Primitive), and create Semantic mappings for specific contexts.</li>
@@ -141,39 +146,19 @@
 												<li>Shadow - Define consistent shadow values for elevation and depth.</li>
 											</ul>
 												
-											<p>Also,  <b>ensure the design system is adaptable to different themes (light and dark modes)</b>, without needing to rebuild components from scratch.</p>
-
-											<div class="box alt">
-												<div class="row gtr-50 gtr-uniform">
-													<div class="col-3"><span class="image fit"><img src="images/design-tokens-color-primitive.png" alt="Color" />Color - Primitive</span></div>
-													<div class="col-3"><span class="image fit"><img src="images/design-tokens-type-primitive.png" alt="Typography" />Typography - Primitive</span></div>
-													<!-- Break -->
-													<div class="col-3"><span class="image fit"><img src="images/design-tokens-spacing.png" alt="Spacing" />Spacing</span></div>
-													<div class="col-3"><span class="image fit"><img src="images/design-tokens-breakpoints.png" alt="Grid" />Breakpoints</span></div>
-													<div class="col-3"><span class="image fit"><img src="images/design-tokens-border.png" alt="Border" />Border</span></div>
-													<div class="col-3"><span class="image fit"><img src="images/design-tokens-shadow.png" alt="Shadow" />Shadow</span></div>
-													<!-- Break -->
-													<figcaption>Fig.1 - Atomic Design Tokens</figcaption>
-												</div>
-											</div>
-										
-											<p>
-												<b>#2 - Assign semantic names to design tokens</b> to create a system that is easier to understand and work with. This abstraction layer simplifies maintenance, allowing me to update a token’s value in one place, ensuring that the change is automatically applied across all my designs.
-											</p>
-											
-											<div class="box alt">
-												<div class="row gtr-50 gtr-uniform">
-													<div class="col-3"><span class="image fit"><img src="images/design-tokens-color-semantic.png" alt="Color" />Color - Semantic</span></div>
-													<div class="col-3"><span class="image fit"><img src="images/design-tokens-type-semantic.png" alt="Typography" />Typography - Semantic</span></div>
-													<!-- Break -->
-													<figcaption>Fig.1 - Atomic Design Tokens</figcaption>
-												</div>
-											</div>
+											<p>Each token category includes primitive and semantic tokens that define the values and usage context within the design system.</p>
+											<span class="image fit"><img src="images/designsystem-colorvariants.png" alt="" />
+												<figcaption>Fig.1 - Create Card Slots</figcaption>
+											</span>
+											<span class="image fit"><img src="images/designsystem-typevariants.png" alt="" />
+												<figcaption>Fig.1 - Create Card Slots</figcaption>
+											</span>
 										</section>
 									
 										<section id="atoms">
 											<div>
-												<h2>Phase 2: Atomic Building Blocks (Atoms)</h2>
+												<p>&nbsp;</p>
+												<h2>Step 2: Atomic Building Blocks (Atoms)</h2>
 												<p> Building upon the Design Tokens, I create reusable UI components. This includes elements such as buttons, input fields, and navigation items, and so on. These components are designed with accessibility and usability in mind.</p>
 												<p>Below is an example of the smallest atom I created for a card component, called <b>SLOTS—placeholders for dynamic content within the card</b>.</p>
 												<p>Using card slots in product design enables flexible content placement without modifying the underlying structure. To ensure adaptability across different scenarios and meet various aesthetic needs, I design these slots in multiple types and styles. Once established, utilizing a slot becomes simple—I can easily select the desired option from the panel, which contains all predefined attributes.</p>
@@ -185,7 +170,8 @@
 
 										<!-- Create Component Libraries -->
 										<section id="molecules">
-											<h2>Phase 3: Component construction (Molecules)</h2>
+											<p>&nbsp;</p>
+											<h2>Step 3: Component construction (Molecules)</h2>
 											<p>Creating a molecule-level component library following the Atomic Design, requires careful planning and execution to ensure the components are reusable, consistent, and scalable. Here are some key factors I focused on:</p>
 
 											<div class="row">
@@ -243,7 +229,8 @@
 
 										<!-- Create Modular and Flexible DS -->
 										<section id="organisms">
-											<h2>Phase 4: Modular Section Development (Organisms)</h2>
+											<p>&nbsp;</p>
+											<h2>Step 4: Modular Section Development (Organisms)</h2>
 											<p>This phase focuses on creating complex UI sections by combining molecules and atoms. Examples include headers, footers, and modal windows. These sections are designed to be adaptable and integrate seamlessly across various pages. There are several questions I need to answer in order to create an effective module, regarding:</p>
 											<div class="row">
 												<div class="col-4 col-12-medium">
@@ -269,7 +256,8 @@
 
 										<!-- Create Component Libraries -->
 										<section id="templates">
-											<h2>Phase 5: Template Creation (Templates)</h2>
+											<p>&nbsp;</p>
+											<h2>Step 5: Template Creation (Templates)</h2>
 											<p>To ensure consistency across pages, I develop page-level templates. These templates demonstrate how organisms and molecules are combined to create functional page layouts, providing a clear structure for development.</p>
 											<p>To build on our previous example, we can take the card organism and apply it to a homepage template.</p>
 											<span class="image fit"><img src="images/template-withcard.png" alt="Template with Card" />
@@ -283,7 +271,8 @@
 										
 										<!-- Create Version Control and Release Management -->
 										<section id="pages">
-											<h2>Phase 6: Interface Implementation (Pages)</h2>
+											<p>&nbsp;</p>
+											<h2>Step 6: Interface Implementation (Pages)</h2>
 											<p>Using the templates and organisms, I implement the user interface with real representative content in place. This iterative process allows for refinement and ensures the design system meets project requirements.</p>
 											<p>Building on my previous example, I can take the template and pour representative text, images, and media into the template to show real content in action. When I pour real representative content into homepage template, I'm able to see how all those underlying design patterns hold up.</p>
 											<span class="image fit"><img src="images/page-withcard.png" alt="" />
@@ -292,7 +281,8 @@
 										</section>
 										
 										<section id="documents">
-											<h2>Phase 7: Documentation and Governance</h2>
+											<p>&nbsp;</p>
+											<h2>Step 7: Documentation and Governance</h2>
 											<p> Clear documentation is essential. I create comprehensive guidelines, including usage instructions and code snippets. A governance process is established to maintain consistency and allow for future updates.</p>
 										</section>
 									</section>
@@ -319,20 +309,17 @@
 					</div>
 
 				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</footer>
+				<footer id="footer">
+					<div class="inner">
+						<ul class="icons">
+							<li><a href="mailto:jasminevn1805@gmail.com" class="icon solid alt fa-envelope"><span class="label">Gmail</span></a></li>
+							<li><a href="https://www.linkedin.com/in/jasmine-hoang/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Jasmine Hoang</li><li>jasminevn1805@gmail.com <!--<a href="https://html5up.net">HTML5 UP</a>--></li>
+						</ul>
+					</div>
+				</footer>
 
 			</div>
 
